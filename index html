@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portofolio Website</title>
+
+<!--box icons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+        <header class="header">
+        <a href = "#" class="logo">Portofolio</a>
+
+        <i class='bx bx-menu' id='menu-icon'></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#question">Question</a>
+            <a href="#hobby">Hobby</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, We Are</h3>
+            <h1>From Group 8</h1>
+            <h3>And We Are <span class="multiple-text"></span></h3>
+            <p>Kami adalah mahasiswa Universitas Bengkulu yang bermimpi ingin menciptakan masa depat yang baik bagi diri kami sendiri dan orang lain. Silahkan untuk melihat-lihat dan jangan lupa untuk memberikan saran!!</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/@unibofficial1/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://x.com/unibofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/unibofficial/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://id.linkedin.com/company/universitas-bengkulu"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/8.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- about section design-->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/profile.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>US</span></h2>
+            <h3>Students of the Mathematics study program</h3>
+            <p>Website ini dibuat berdasarkan kerjasama dari setiap anggota kelompok yang terdiri dari Muhammad Daniel Aprillianto, <br>Muhammad Iqbal, dan M. Hafiz Ramadhan yang dibuat untuk memenuhi tujuan dari praktikum pertemuan pertama matakuliah pemrograman.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- service section design-->
+     <section class="services" id="question">
+        <h2 class="heading">Answer the <span>Question</span></h2>
+        <h3 class="heading">Apa Yang Membuat Anda Memilih Program Studi Matematika?</h3>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-message-dots' ></i>
+                <h3>Muhammad Daniel Aprillianto</h3>
+                <p>Saya memilih Program Studi Matematika karena saya ingin menantang diri saya setiap hari! Matematika mengajarkan saya untuk berpikir kritis, logis, dan kreatif. Bagi saya, setiap soal matematika itu seperti teka-teki, tapi seru dan memuaskan saat berhasil menemukan jawabannya. Saya percaya, dengan matematika, saya bisa berkontribusi di bidang teknologi, data, bahkan menyelesaikan masalah dunia nyata. Ini bukan cuma tentang angka, tapi tentang membentuk masa depan dengan pola pikir yang kuat, terstruktur dan juga seru!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-message-dots' ></i>
+                <h3>Muhammad Iqbal</h3>
+                <p>Saya memilih Program Studi Matematika karena saya yakin masa depan penuh peluang bagi siapa saja yang mau belajar dan berusaha. Matematika mungkin terlihat sulit, tapi saya percaya setiap kesulitan bisa diatasi dengan kerja keras dan semangat pantang menyerah. Ilmu ini membuka jalan untuk memahami dunia dengan lebih dalam dan membuat keputusan yang lebih bijak. Saya optimis, dengan bekal matematika, saya bisa memberi kontribusi nyata di masa depan dan menjadi bagian dari solusi atas berbagai tantangan zaman!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-message-dots' ></i>
+                <h3>M. Hafiz Ramadhan</h3>
+                <p>Saya memilih Program Studi Matematika karena saya menyukai tantangan intelektual dan ingin terus mengasah kemampuan berpikir saya. Matematika melatih saya untuk menganalisis masalah secara mendalam dan menemukan solusi dengan cara yang elegan. Bagi saya, logika dan struktur dalam matematika adalah seni tersendiri. Saya percaya, dengan fondasi matematika yang kuat, saya bisa menjelajahi berbagai bidang seperti kecerdasan buatan, kriptografi, dan data science. Matematika bukan hanya pelajaran, tapi kunci untuk banyak pintu masa depan!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+     </section>
+
+     <!--portofolio section design-->
+     <section class="portofolio" id="hobby">
+        <h2 class="heading">Our <span>Hobbies</span></h2>
+        <div class="portofolio-container">
+            <div class="portofolio-box">
+                <img src="images/hobi1.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Bermain Game</h4>
+                    <p> Bermain Game sangat mengasikkan! Apalagi jika dapat bermain dengan teman-teman                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="images/hobi2.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Traveling</h4>
+                    <p>Sangat mengasikkan jika dapat berkeliling berbagai tempat untuk menikmati keindahannya!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="images/hobi3.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Membaca</h4>
+                    <p> Membaca bukan hanya untuk menambah ilmu saja tetapi dapat dijadikan hobi yang mengasikkan                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="images/hobi4.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Badminton</h4>
+                    <p> Merupakan olahraga yang simpel tapi cukup rumit juga tetapi tetap asik                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="images/hobi5.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Menggambar</h4>
+                    <p> Menghabiskan waktu luang dengan melukiskan hasil imajinasi adalah hal yang sangat seru                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="images/hobi6.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Coding</h4>
+                    <p>Menghabiskan waktu luang dengan coding dapat membuat pemahaman mengenai dunia coding menjadi meningkat</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- contact section design-->
+       <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+       </section>
+
+       <!--footer design-->
+       <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+       </footer>
+
+ <!-- ScrollReveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- Typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- Script -->
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
